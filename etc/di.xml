@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2018. IOWEB TECHNOLOGIES
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="iocron_run" xsi:type="object">Ioweb\CronMemory\Console\Command\CronMemoryCommand</item>
+            </argument>
+        </arguments>
+    </type>
+    <!--<type name="Ioweb\Skroutzfeed\Block\Analytics">-->
+    <!--<plugin name="iowebskroutzfeed_analytics_adjustments" type="Ioweb\Skroutzfeed\Plugin\AnalyticsAdjustments" sortOrder="1" disabled="false" />-->
+    <!--</type>-->
+</config>
