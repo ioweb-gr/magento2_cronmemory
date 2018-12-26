@@ -19,13 +19,5 @@
         "psr-4": {
             "Ioweb\\CronMemory\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Ioweb/CronMemory"
-            ]
-        ]
     }
 }
